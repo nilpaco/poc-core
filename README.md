@@ -42,5 +42,7 @@ tsconfig.json
         "dist/core/*"
       ]
     }
+    
+    sudo npm link /Users/nilpanescoll/Documents/spikes/arinc2-core/dist/core
 ## Run lib
 ng build core --watch
