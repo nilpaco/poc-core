@@ -25,3 +25,22 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Needed
+package.json
+"@angular-devkit/build-ng-packagr": "0.8.0-beta.0",
+"@angular-devkit/build-angular": "0.8.0-beta.0",
+"ng-packagr": "^4.0.0-rc.3",
+"@angular/cli": "~6.2.7",
+tsconfig.json
+    "paths": {
+      "core": [
+        "dist/core"
+      ],
+      "core/*": [
+        "dist/core/*"
+      ]
+    }
+## Run lib
+ng build core --watch
