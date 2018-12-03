@@ -3,8 +3,8 @@
 	"version": "0.0.0",
 	"scripts": {
 		"ng": "ng",
-		"start": "ng serve",
-		"build": "ng build",
+		"serve": "ng build core --watch",
+		"serve-mock": "ng build core --watch & json-server --watch db.json --routes routes.json",
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e"

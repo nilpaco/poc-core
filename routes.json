@@ -1,0 +1,4 @@
+{
+	"/pet/findByStatus?status=:status": "/pet?status=:status",
+	"/store/inventory": "/inventory"
+}

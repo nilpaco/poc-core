@@ -1,0 +1,63 @@
+{
+  "pet": [
+    {
+      "id": 15435006011094,
+      "name": "doggie",
+      "photoUrls": [],
+      "tags": [],
+      "status": "sold"
+    },
+    {
+      "id": 15435006011094,
+      "name": "doggie",
+      "photoUrls": [],
+      "tags": [],
+      "status": "pending"
+    },
+    {
+      "id": 603205,
+      "name": "Charlie",
+      "photoUrls": [],
+      "tags": [],
+      "status": "sold"
+    },
+    {
+      "id": 15435006012003,
+      "name": "Charlie",
+      "photoUrls": [],
+      "tags": [],
+      "status": "available"
+    },
+    {
+      "id": 15435006014864,
+      "name": "doggie",
+      "photoUrls": [],
+      "tags": [],
+      "status": "available"
+    }
+  ],
+  "inventory": {
+    "sold": 80,
+    "placed": 1,
+    "string": 29111,
+    "available2": 1,
+    "Nonavailable": 1,
+    "pending": 46,
+    "available": 1221,
+    "available;pending;sold": 2,
+    "kelly": 1,
+    "availableaaa": 2,
+    "Sold": 8,
+    "qaqa": 1,
+    "available for cuddles": 1,
+    "invalid": 3,
+    "Available": 10,
+    "availale": 1,
+    "YAI3424forYAI3373": 1,
+    "avaible": 4,
+    "Pending": 6
+  },
+  "profile": {
+    "name": "typicode"
+  }
+}

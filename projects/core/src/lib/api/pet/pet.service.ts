@@ -3,14 +3,16 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Pet } from './../../models';
+import { AbstractService } from '../abstract.service';
 
 @Injectable({
 	providedIn: 'root'
 })
-export class PetService {
-	private url: string = 'https://petstore.swagger.io/v2/pet/';
+export class PetService extends AbstractService {
 
-	constructor(private http: HttpClient) {}
+	constructor(protected http: HttpClient) {
+		super('pet', http);
+	}
 
 	getPetById(id: number): Observable<any> {
 		return this.http.get(this.url + id).pipe(
