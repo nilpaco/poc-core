@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 
 export class AbstractService {
 
-    protected url: string = environment.mockBaseUrl;
+    protected url: string = environment.baseUrl;
 
     protected requestOptions: RequestOptions = new RequestOptions({
         headers: new Headers({ 'Content-Type': 'application/json' })
