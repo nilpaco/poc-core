@@ -23,7 +23,7 @@ export class AbstractService {
     /**
      * Generic function to get an entity
      *
-     * @param number [id] required parameter
+     * @param number [id] optional parameter
      * @returns (Observable<any>)
      */
     get(id?: number): Observable<any> {
@@ -43,9 +43,17 @@ export class AbstractService {
         )
     }
 
-    // search()
+    /**
+     * Generic function to post an entity
+     *
+     * @param any [body] required parameter
+     * @returns (Observable<any>)
+     */
+    post(body: any): Observable<any> {
+        return this.http.post(this.url, body);
+    }
 
-    // post()
+    // search()
 
     // delete()
 
